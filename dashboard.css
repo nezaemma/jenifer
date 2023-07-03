@@ -10,6 +10,7 @@
   }
   body{
     background: #dfe9f5;
+ 
   
   }
   .container{
@@ -21,7 +22,8 @@
     bottom: 0;
     height: 100vh;
     left: 0;
-    background: #fff;
+    /* background: #fff; */
+    background-color: aqua;
     width: 280px;
     overflow: hidden;
     box-shadow: 0 20px 35px;
@@ -60,11 +62,13 @@ margin: 10px 0 0 10px;
   }
   .nav-item{
     position: relative;
+   
     top: 12px;
     margin-left: 10px;
   }
   a:hover{
-    background: #eee;
+    background:#eee;
+   
   }
   .logout{
     position: absolute;
@@ -101,13 +105,14 @@ margin: 10px 0 0 10px;
   }
   .main-skills .card h3{
     margin: 10px;
+    background-color: firebrick;
     text-transform: capitalize;
   }
   .main-skills .card p{
     font-size: 12px;
   }
   .main-skills .card button{
-    background: orangered;
+    background: aqua;
     color: #fff;
     padding: 7px 15px;
     border-radius: 10px;
@@ -122,3 +127,37 @@ margin: 10px 0 0 10px;
     font-size: 22px;
     padding: 10px;
   }
+  .main-top{
+    display: flex;
+    justify-content: space-between;
+margin-top: -1rem;
+
+  }
+  .main-top h1{
+    margin-left: 10%;
+  }
+  .main-title  {
+   margin-top: 30px;
+   padding: 20px;
+  }
+  .title{
+    /* background-color: red;
+  padding: 2rem; */
+  color: black;
+  background-color: aqua;
+  padding: 25px;
+  
+  }
+  .one{
+    /* background-color: firebrick; */
+    padding-left: 0.5rem;
+  }
+  .two{
+    padding-left: 15rem;
+    
+  }
+  .three{
+    padding-left: 20rem;
+  
+  }
+  

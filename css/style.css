@@ -599,34 +599,7 @@ rgba(0, 128, 0, 0.548)
 .menu-icon i {
   font-size: 3rem;
 }
-/* *{
-  margin: 0;
-  padding: 0;
-  outline: none;
-  border: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  font-family: "poppins", sans-serif;
 
-}
-body{
-  background: #dfe9f5;
-
-}
-.container{
-  display: flex;
-}
-nav{
-  position: relative;
-  top:0;
-  bottom: 0;
-  height: 100vh;
-  left: 0;
-  background: #fff;
-  width: 280px;
-  overflow: hidden;
-  box-shadow: 0 20px 35px;
-} */
 
 
 
