@@ -160,4 +160,88 @@ margin-top: -1rem;
     padding-left: 20rem;
   
   }
+
+
+
+  /* login in css */
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: url(/home/hp/Downloads/icon.webp);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+  }
+  .Loginbox{
+    width: 320px;
+    height: 420px;
+    background: aqua;
+    margin-top: 40%;
+    top: 50%;
+    left: 50%;
+    padding: 70px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+  }
+  .icon.webp {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left: (50% -50px);
+  }
+  h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .Loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  .Loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+    .Loginbox input[type="text"], input[type="Password"]
+    {
+      border: none;
+      border-bottom: 1px solid #fff;
+     
+      background: transparent;
+      outline: none;
+      height: 40px;
+      color: #fff;
+    }
+
+    .Loginbox input [type="Submite"]
+    {
+      border: none;
+      outline: none;
+      height: 40px;
+      background: #fb2525;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+    }
+    
+    .Loginbox input[type="Submit"]:hover{
+      cursor: pointer;
+      background: #ffc107;
+      color: #000;
+    }
+    .Loginbox a{
+      text-decoration: none;
+      font-size: 12px;
+      line-height: 20px;
+      color: darkgrey;
+    }
+    .Loginbox a:hover{
+      color: #ffc107;
+    }
+      
   

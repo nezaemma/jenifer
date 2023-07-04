@@ -1,0 +1,47 @@
+#container{
+    background-color: aqua;
+    width: 800px;
+    height: 700px;
+    margin: 60px;
+    
+    
+}
+.header{
+    background-color: brown;
+    width: 800px;
+    height: 100px;
+    cursor: pointer;
+   
+}
+h1{ 
+ 
+ color: aqua;
+ 
+   
+}
+.main {
+background-color: black;
+width: 500px;
+height: 600px;
+color: #fff;
+display: flex;
+}
+.team1{
+  background-color: bisque; 
+  width: 300px;
+  height: 600px;
+    
+}
+.team2{
+    background-color: rgb(83, 82, 81); 
+  width: 400px;
+  height: 600px;
+    
+}
+.team3{
+   
+    background-color: rgb(163, 97, 16); 
+  width: 300px;
+  height: 600px; 
+}
+ 
